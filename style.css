@@ -75,6 +75,7 @@ nav a:hover{
     color:#7A1F3D;
 }
 
+
 /* ===========================
    HERO
 =========================== */
@@ -112,6 +113,11 @@ nav a:hover{
     opacity:.95;
 }
 
+
+/* ===========================
+   BOTONES
+=========================== */
+
 .buttons{
     display:flex;
     gap:20px;
@@ -119,32 +125,47 @@ nav a:hover{
 
 .btn-primary,
 .btn-secondary{
+
     text-decoration:none;
     padding:16px 34px;
     border-radius:50px;
     transition:.35s;
     font-weight:600;
+
 }
+
 
 .btn-primary{
-    background:#2d6cdf;
+
+    background:#7A1F3D;
     color:white;
+
 }
+
 
 .btn-primary:hover{
+
     transform:translateY(-3px);
     background:#5A162D;
+
 }
+
 
 .btn-secondary{
+
     border:2px solid white;
     color:white;
+
 }
 
+
 .btn-secondary:hover{
+
     background:white;
     color:#222;
+
 }
+
 
 /* ===========================
    RESPONSIVE
@@ -153,31 +174,49 @@ nav a:hover{
 @media(max-width:900px){
 
     header{
+
         flex-direction:column;
         gap:20px;
+
     }
 
+
     nav{
+
         flex-wrap:wrap;
         justify-content:center;
         gap:20px;
+
     }
+
 
     .hero{
+
         text-align:center;
         justify-content:center;
+
     }
+
 
     .hero h1{
+
         font-size:40px;
+
     }
+
 
     .hero p{
+
         font-size:18px;
+
     }
 
+
     .buttons{
+
         flex-direction:column;
         align-items:center;
+
     }
+
 }
