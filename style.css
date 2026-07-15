@@ -18,6 +18,7 @@ body{
     color:#222;
 }
 
+
 /* ===========================
    HEADER
 =========================== */
@@ -59,6 +60,7 @@ header{
     color:#666;
 }
 
+
 nav{
     display:flex;
     gap:35px;
@@ -76,6 +78,7 @@ nav a:hover{
 }
 
 
+
 /* ===========================
    HERO
 =========================== */
@@ -88,7 +91,7 @@ nav a:hover{
     color:white;
 
     background:
-    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
     url("https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1600&q=80");
 
     background-size:cover;
@@ -96,9 +99,11 @@ nav a:hover{
     background-repeat:no-repeat;
 }
 
+
 .hero-content{
     max-width:700px;
 }
+
 
 .hero h1{
     font-size:60px;
@@ -106,12 +111,14 @@ nav a:hover{
     margin-bottom:25px;
 }
 
+
 .hero p{
     font-size:20px;
     line-height:1.8;
     margin-bottom:40px;
     opacity:.95;
 }
+
 
 
 /* ===========================
@@ -122,6 +129,7 @@ nav a:hover{
     display:flex;
     gap:20px;
 }
+
 
 .btn-primary,
 .btn-secondary{
@@ -165,6 +173,7 @@ nav a:hover{
     color:#222;
 
 }
+
 
 
 /* ===========================
